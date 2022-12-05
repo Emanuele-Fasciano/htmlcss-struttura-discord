@@ -132,6 +132,7 @@ header{
 .black-section{
     height: 500px;
     background-color: rgb(27, 25, 25);
+    border-bottom: 3px solid lightgray;
 }
 
 .container{
@@ -154,5 +155,34 @@ header{
     background-color: aqua;
     border: 2px dashed white;
 }
+
+
+/* footer */
+footer{
+    height: 80px;
+    background-color: rgb(27, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.foot-container{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 15px 0;
+
+}
+
+.foot-element{
+    background-color: salmon;
+    padding: 5px;
+    border: 1px dashed black;
+}
+
+
 
 
