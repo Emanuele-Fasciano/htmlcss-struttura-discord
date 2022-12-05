@@ -65,7 +65,7 @@ header{
 .blue-section>div{
     width: 800px;
     height: 300px;
-    background-color:rgb(235, 76, 179) ;
+    background-color:rgb(235, 76, 179);
     border: 3px dashed black;
 }
 
