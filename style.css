@@ -10,16 +10,19 @@ img{
     height: 100%;
 }
 
+/* display flex */
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /* header */
 
 header{
     background-color: lightblue;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+    height: 100px;  
 }
 
 .head-bar{
@@ -30,7 +33,7 @@ header{
 .head-bar>div{
     height: 50px;
     background-color: goldenrod;
-    border: 1px dashed black;
+    border: 3px dashed black;
 }
 
 .logo-head, .login{
@@ -39,10 +42,6 @@ header{
 
 .links{
     width: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
 }
 
 .links>a{
@@ -61,16 +60,13 @@ header{
 .blue-section{
     background-color: blue;
     height: 400px;
-    display: flex;
-    align-items: center;
 }
 
 .blue-section>div{
     width: 800px;
     height: 300px;
     background-color:rgb(235, 76, 179) ;
-    border: 1px dashed black;
-    margin: auto;
+    border: 3px dashed black;
 }
 
 
@@ -78,26 +74,85 @@ header{
 
 .white-section{
     height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .white-section>.left-col{
     width: 600px;
     height: 300px;
     background-color: rgb(0, 140, 255);
-    border: 1px dashed black;
+    border: 3px dashed black;
 }
 
 .white-section>.right-col{
     width: 400px;
     height: 300px;
     background-color: pink;
-    border: 1px dashed black;
+    border: 3px dashed black;
 
 }
 
 
 /* gray-section */
+
+.gray-section{
+    min-height: 400px;
+    background-color: lightgrey;
+}
+
+.gray-section>.left-col{
+    width: 400px;
+    height: 300px;
+    background-color: pink;
+    border: 3px dashed black;
+   
+}
+
+.gray-section>.right-col{
+    width: 600px;
+    height: 300px;
+    background-color: rgb(0, 140, 255);
+    border: 3px dashed black;
+
+}
+
+
+/* green-cont */
+
+.green-cont{
+    width: 1000px;
+    height: 600px;
+    border: 3px dashed black;
+    background-color: green;
+    margin: 55px;
+}
+
+
+/* black-section */
+
+.black-section{
+    height: 500px;
+    background-color: rgb(27, 25, 25);
+}
+
+.container{
+    width: 1000px;
+    height: 450px;
+    margin-bottom: 25px;
+}
+
+.big-column{
+    height: 100%;
+    width:calc(100% / 3);
+    background-color: salmon;
+    border: 3px dashed black;
+
+}
+
+.small-col{
+    height: 100%;
+    width: 25%;
+    background-color: aqua;
+    border: 2px dashed white;
+}
+
 
